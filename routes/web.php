@@ -14,7 +14,5 @@ Route::get('/clientes', [\App\Http\Controllers\ClientesController::class, 'clien
 
 Route::get('/fornecedores', [\App\Http\Controllers\FornecedoresController::class, 'fornecedores']);
 
-Route::get('/produtos', function () {
-    return view('welcome');
-});
+Route::get('/produtos', [\App\Http\Controllers\ProdutosController::class, 'produtos']);
 
