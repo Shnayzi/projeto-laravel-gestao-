@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class FornecedoresController extends Controller
 {
     public function fornecedores(){
-        echo 'fornecedores - controller';
+        return view('site.fornecedores');
     }
 }

@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ProdutosController extends Controller
 {
     public function produtos(){
-        echo 'Produtos - Controller';
+        return view('site.produtos');
     }
 }
