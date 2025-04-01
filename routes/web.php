@@ -8,7 +8,7 @@ Route::get('/login', [\App\Http\Controllers\LoginController::class, 'login']);
 
 Route::get('/sobre-nos', [\App\Http\Controllers\SobreNosController::class, 'sobreNos']);
 
-Route::get('/contato', [\App\Http\Controllers\SobreNosController::class, 'sobreNos']);
+Route::get('/contato', [\App\Http\Controllers\ContatoController::class, 'contato']);
 
 Route::get('/clientes', [\App\Http\Controllers\ClientesController::class, 'clientes']);
 
